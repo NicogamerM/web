@@ -1,0 +1,97 @@
+/* Fondo y Fuente */
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente retro */
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #111;
+    color: #00e5ff; /* Color cian brillante */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #00e5ff;
+}
+
+h1, h2 {
+    text-shadow: 0px 0px 5px #ff00d4, 0px 0px 10px #ff00d4;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    text-shadow: 0px 0px 3px #00e5ff;
+}
+
+/* Secciones */
+#about, #games {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #00e5ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ff00d4;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.game-container a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    width: 180px;
+}
+
+.game-thumbnail {
+    width: 100%;
+    border: 3px solid #ff00d4;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #00e5ff;
+    transition: transform 0.3s;
+}
+
+.game-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+#games p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ff00d4;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #ff00d4; /* Color rosa neón */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #00e5ff; /* Cambia a cian al pasar el mouse */
+}
